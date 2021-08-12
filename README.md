@@ -8,5 +8,7 @@ the script expect a file to read from. Add the links you want to test on the fil
 for example
 
 https://example.com/file?description=helloworld
+
+
 https://google.com/xss?vulnerableparameter=hmmm
 
