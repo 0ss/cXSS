@@ -5,7 +5,7 @@
 You need to **install** first
 https://github.com/tomnomnom/qsreplace
 
-#### the script expect a file to read from. Add the links you want to test on the file each link in seperater line.
+#### the script expects a file to read from. Add the links you want to test on the file, each link in seperated line.
 ##### for example
 
 https://example.com/file?description=helloworld
@@ -13,7 +13,7 @@ https://example.com/file?description=helloworld
 https://google.com/xss?vulnerableparameter=hmmm
 
 
-#### and it is going to replace each parameter with XSS payload like this 
+#### the script is going to replace each parameter with XSS payload like this 
 
 https://example.com/file?description=<script>alert('xss')</script>
 
