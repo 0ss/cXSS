@@ -1,5 +1,5 @@
 # cXSS
-* curl xss -> cXSS *
+*curl xss -> cXSS*
 ### one liner xss checker
 
 You need to **install** first
