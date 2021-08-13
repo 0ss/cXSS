@@ -1,6 +1,6 @@
 # cXSS
 *curl xss -> cXSS*
-### one liner xss checker
+### simple bash xss checker script
 
 You need to **install** first
 https://github.com/tomnomnom/qsreplace
