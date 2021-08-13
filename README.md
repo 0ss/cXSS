@@ -9,17 +9,15 @@ https://github.com/tomnomnom/qsreplace
 ##### for example
 
 https://example.com/file?description=helloworld
-
 https://google.com/xss?vulnerableparameter=hmmm
 
 
 #### the script is going to replace each parameter with XSS payload like this 
 
 https://example.com/file?description=<script>alert('xss')</script>
-
 https://google.com/xss?vulnerableparameter=<script>alert('xss')</script>
 
 #### if It is reflected on the response, it will print vulnerable.
 
-*disclaimer: part of the script was inspired and taken one-liners bug bounty, and I added my little spicy on it ❤*
+*disclaimer: part of the script was inspired and taken from one-liners bug bounty, and I added my little spicy on it ❤*
 
